@@ -1,15 +1,15 @@
 # JPWABC-Convetor
-Convert musescore file to jp-word file
-This plugin can convert the choosed stave to .jpwabc format file.
-The .jpwabc format file will be saved to temporaryPath+Score FileName.jpwabc
-eg. Moonlight.mscz - > C:/Users/LexChen/AppData/Local/Temp/Moonlight.jpwabc
-.jpwabc is the file format of a software named JP-Word which supports numbered notation(JianPu).
-JP-Word's homepage ~  http://www.happyeo.com/intro_jpw.htm
+Convert musescore file to jp-word file<br>
+This plugin can convert the choosed stave to .jpwabc format file.<br>
+The .jpwabc format file will be saved to temporaryPath+Score FileName.jpwabc<br>
+eg. Moonlight.mscz - > C:/Users/LexChen/AppData/Local/Temp/Moonlight.jpwabc<br>
+.jpwabc is the file format of a software named JP-Word which supports numbered notation(JianPu).<br>
+JP-Word's homepage ~  http://www.happyeo.com/intro_jpw.htm<br>
 
-The following elements have been converted:
-Chord,Rest,BarLine,KeySignature,TimeSignature,Tempo,Tie,Triplet(calculated by myself)
-I couldn't find the following elements in MuscScore's Plugin sdk,so they were ignored:
-Slur,Grace,Lines,Many Texts not having a corresponding object in JP-Word,etc
+The following elements have been converted:<br>
+Chord,Rest,BarLine,KeySignature,TimeSignature,Tempo,Tie,Triplet(calculated by myself)<br>
+I couldn't find the following elements in MuscScore's Plugin sdk,so they were ignored:<br>
+Slur,Grace,Lines,Many Texts not having a corresponding object in JP-Word,etc<br>
 
 ==========Simplified Chinese====================<br>
 
@@ -23,5 +23,7 @@ Slur,Grace,Lines,Many Texts not having a corresponding object in JP-Word,etc
 完成时会有弹窗提示，所以你不用记住这些东西。<br>
 转换完成后用JP-Word打开该文件即可。<br>
 JP-Word的下载地址~  http://www.happyeo.com/intro_jpw.htm<br>
+<br>
+安装方式：将JPWABC Convertor.qml放到musescore的插件（plugin）目录下即可
 <br>
 作者联系方式：  QQ  2480102119<br>
