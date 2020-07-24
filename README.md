@@ -12,6 +12,7 @@ I couldn't find the following elements in MuscScore's Plugin sdk,so they were ig
 Slur,Grace,Lines,Many Texts not having a corresponding object in JP-Word,etc
 
 ==========Simplified Chinese====================
+
 这是一个Musecore插件，该插件用来将musescore打开的五线谱转换为jp-word的简谱格式。
 点击插件运行时只需要选择两个选项：
 1）要转换哪一行五线谱？缺省为第1行，顺序为从上到下编号
