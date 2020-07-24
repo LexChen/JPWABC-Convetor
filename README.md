@@ -15,7 +15,7 @@ Slur,Grace,Lines,Many Texts not having a corresponding object in JP-Word,etc<br>
 
 这是一个Musecore插件，该插件用来将musescore打开的五线谱转换为jp-word的简谱格式。<br>
 点击插件运行时只需要选择两个选项：<br>
-1）要转换哪一行五线谱？缺省为第1行，顺序为从上到下编号<br>
+1）要转换哪一行五线谱。缺省为第1行，顺序为从上到下编号<br>
 2）要转换为首调记谱（First Tune）还是固定唱名记谱（Fixed Aria），缺省为首调记谱<br>
 转换成功后，文件会被自动保存在临时目录下<br>
 例如要转换的乐谱文件名为 Moonlight.mscz ，你当前登录的windows用户名为LexChen，那么<br>
