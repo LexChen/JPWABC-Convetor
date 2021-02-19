@@ -54,7 +54,7 @@ MuseScore {
     
     FileIO {
         id: outfile
-        source: tempPath() + "/"
+        source:  homePath()+"/"
         onError: lexDialog.openErrorDialog(msg)
     }     
 
@@ -97,8 +97,8 @@ MuseScore {
             model: ListModel {
                 id: solmizationMethod
                 property var key
-                ListElement { text: qsTr("First Tune"); sValue : 0 }
-                ListElement { text: qsTr("Fixed Aria"); sValue : 1 }
+                ListElement { text: qsTr("首调"); sValue : 0 }
+                ListElement { text: qsTr("固定音"); sValue : 1 }
             }
             width: 80
             onCurrentIndexChanged: {
