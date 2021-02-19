@@ -19,7 +19,7 @@ Slur,Grace,Lines,Many Texts not having a corresponding object in JP-Word,etc<br>
 2）要转换为首调记谱（First Tune）还是固定唱名记谱（Fixed Aria），缺省为首调记谱<br>
 转换成功后，文件会被自动保存在临时目录下<br>
 例如要转换的乐谱文件名为 Moonlight.mscz ，你当前登录的windows用户名为LexChen，那么<br>
-转换完成后，文件会被自动保存在 C:/Users/LexChen/AppData/Local/Temp/Moonlight.jpwabc<br>
+转换完成后，文件会被自动保存在 C:/Users/LexChen/Moonlight.jpwabc<br>
 完成时会有弹窗提示，所以你不用记住这些东西。<br>
 转换完成后用JP-Word打开该文件即可。<br>
 JP-Word的下载地址~  http://www.happyeo.com/intro_jpw.htm<br>
