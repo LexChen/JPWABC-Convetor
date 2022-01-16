@@ -31,7 +31,8 @@ and then replace the Chinese name font in the edit set text font in jpw with the
 转换完成后用JP-Word打开该文件即可。<br>
 JP-Word的下载地址~  http://www.happyeo.com/intro_jpw.htm<br>
 <br>
-安装方式：首先，安装我在电脑上发布的三种字体，然后用新安装的英文名称字体替换掉JPW中 编辑-设置文本字体 中的中文名称字体。然后将JPWABC Convertor.qml放到musescore的插件（plugin）目录下即可
+安装方式：首先，在电脑上安装我上传的三个字体，然后用新安装的英文名称字体替换掉JPW中 编辑-设置文本字体 中的中文名称字体。然后将JPWABC Convertor.qml放到musescore的插件（plugin）目录下即可。
+（字体英文名几乎是拼音大家应该能看懂）
 <br>
 原作者联系方式：  QQ  2480102119<br>
 由于中文汉字以及符号无法正常显示（出来的都是乱码），我将使用的字体的字体文件，里面的名称及详细信息修改成英文，以此来骗过系统让电脑认为这是一个新的字体。
