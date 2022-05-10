@@ -246,7 +246,7 @@ MuseScore {
         }else{
             content+="\nKeyAndMeters = {1=C,___LEX___}";
         }
-        content+="\nWordsByAndMusicBy = "+qsTr("Composor: ")+curScore.composer+"\\n"+qsTr("Lyrics: ")+curScore.lyricist+"\\n"+qsTr("Maker: cangerjun");
+        content+="\nWordsByAndMusicBy = "+qsTr("Composor:")+curScore.composer+"\\n"+qsTr("Lyrics:")+curScore.lyricist+"\\n"+qsTr("Maker:cangerjun");
         content+="\nExpression = ";
         content+="\nLinePos = -3.0, -1.0, 11.0, 16.5, 10.5, 10.5, 18.0";
         content+="\n\n\n.Voice\n";
