@@ -54,7 +54,7 @@ MuseScore {
     
     FileIO {
         id: outfile
-        source: tempPath() + "/"
+        source:  homePath()+"/"
         onError: lexDialog.openErrorDialog(msg)
     }     
 
@@ -97,8 +97,8 @@ MuseScore {
             model: ListModel {
                 id: solmizationMethod
                 property var key
-                ListElement { text: qsTr("First Tune"); sValue : 0 }
-                ListElement { text: qsTr("Fixed Aria"); sValue : 1 }
+                ListElement { text: qsTr("首调"); sValue : 0 }
+                ListElement { text: qsTr("固定音"); sValue : 1 }
             }
             width: 80
             onCurrentIndexChanged: {
@@ -229,18 +229,26 @@ MuseScore {
         cursor.voice = voice;
         cursor.StaveIdx = selectedStave;
 
-        content+="\n.Options\n\n\n.Fonts\n\n\n.Title\nIntro = QQ：2480102119";
+        content+="\n.Options\nVertSpacing = 1.00, 0.30, 0.20, 1.95\n\n";
+        content+="\n.Fonts\nTitle = Microsoft YaHei, 8.00";
+        content+="\nWordsByAndMusicBy = KaiTi_GB2312, 4.50";
+        content+="\nSubTitle2 = FangSong_GB2312, 3.80";
+        content+="\nSubTitle = FangSong_GB2312, 4.00";
+        content+="\nKeyAndMeters = Microsoft YaHei, 3.00";
+        content+="\nIntro = Arial, 3.00, [I]";
+        content+="\nExpression = Microsoft YaHei, 3.50\n\n";
+        content+="\n.Title\nIntro = QQ: 527254719";
         content+="\nTitle = {"+curScore.title+"}";
-        content+="\nSubTitle = ";
-        content+="\nSubTitle2 =";
+        content+="\nSubTitle = From：";
+        content+="\nSubTitle2 = Singer：";
         if(solmizationType == 0){
             content+="\nKeyAndMeters = {1="+keyNames[cursor.keySignature+7]+",___LEX___}";
         }else{
             content+="\nKeyAndMeters = {1=C,___LEX___}";
         }
-        content+="\nWordsByAndMusicBy = "+qsTr("Composor:")+curScore.composer+"\\n"+qsTr("Lyrics:")+curScore.lyricist+"\\n"+qsTr("Maker:LexChen");
+        content+="\nWordsByAndMusicBy = "+qsTr("Composor:")+curScore.composer+"\\n"+qsTr("Lyrics:")+curScore.lyricist+"\\n"+qsTr("Maker:cangerjun");
         content+="\nExpression = ";
-        content+="\nLinePos = 0.0, 0.0, 16.0, 20.0, 16.0, 16.0, 20.0";
+        content+="\nLinePos = -3.0, -1.0, 11.0, 16.5, 10.5, 10.5, 18.0";
         content+="\n\n\n.Voice\n";
         var tickList = [];
         var index = 0;
