@@ -306,21 +306,21 @@ MuseScore {
                 break;
             case Element.BAR_LINE:
                 if(cursor.element.barlineType==1){
-                    noteText="|";
+                    noteText=" | ";
                 }else if(cursor.element.barlineType==2){
-                    noteText="||";
+                    noteText=" || ";
                 }else if(cursor.element.barlineType==4){
-                    noteText="|:";
+                    noteText=" |: ";
                 }else if(cursor.element.barlineType==8){
-                    noteText=":|";
+                    noteText=" :| ";
                 }else if(cursor.element.barlineType==16){
-                    noteText="::";
+                    noteText=" :: ";
                 }else if(cursor.element.barlineType==32){
-                    noteText="|]";
+                    noteText=" |] ";
                 }else if(cursor.element.barlineType==64){
-                    noteText=":|:";
+                    noteText=" :|: ";
                 }else if(cursor.element.barlineType==128){
-                    noteText="::";
+                    noteText=" :: ";
                 }
                 if(cursor.prev()){
                     if( cursor.element.type!=Element.BAR_LINE && notFirst){
@@ -352,7 +352,6 @@ MuseScore {
                 }
                 break;
             }
-            console.log("xxxxxxxx");
             voice+=noteText;
             cursor.next();
         }
