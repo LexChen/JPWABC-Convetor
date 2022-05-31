@@ -308,7 +308,7 @@ MuseScore {
                 if(cursor.element.barlineType==1){
                     noteText=" | ";
                 }else if(cursor.element.barlineType==2){
-                    noteText=" || ";
+                    noteText=" | ";
                 }else if(cursor.element.barlineType==4){
                     noteText=" |: ";
                 }else if(cursor.element.barlineType==8){
